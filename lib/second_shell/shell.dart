@@ -29,6 +29,7 @@ class _ShellState extends State<Shell> with SingleTickerProviderStateMixin {
             child: Container(
               height: 300,
               color: Colors.amber,
+              child: const Center(child: Text('Tap to see details')),
             ),
           ),
           TabBar(
